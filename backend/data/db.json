@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@company.com",
+      "password": "$2a$10$yoOJ2taAtT2aHdhOgeyxp.LNv9aXlP1u37BLB7ZvqZRpRNjuApbea",
+      "role": "admin",
+      "department": "HR",
+      "employee_id": "EMP001",
+      "created_at": "2026-09-01T09:41:40.487Z"
+    }
+  ],
+  "leave_balances": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "annual_leaves": 12,
+      "sick_leaves": 10,
+      "casual_leaves": 6,
+      "maternity_leaves": 90,
+      "paternity_leaves": 15
+    }
+  ],
+  "leave_requests": []
+}
